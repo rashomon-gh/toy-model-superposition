@@ -25,7 +25,7 @@ def visualize_interference(state):
 
     # 5. Formatting
     plt.colorbar(im, label="Dot Product (Interference)")
-    plt.title("Feature Interference Matrix ($W W^T$) - JAX/Flax")
+    plt.title("Feature Interference Matrix ($W W^T$)")
     plt.xlabel("Features (sorted by importance)")
     plt.ylabel("Features (sorted by importance)")
 
