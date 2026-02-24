@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def visualize_interference_jax(state):
+def visualize_interference(state):
     # 1. Extract the weight matrix from the Flax TrainState
     # The parameters are stored in the state.params dictionary
     W = state.params["W"]

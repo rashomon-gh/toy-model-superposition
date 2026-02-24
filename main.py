@@ -1,4 +1,5 @@
 from core.trainer import train_toy_model
+from core.visualisation import visualize_interference
 
 
 if __name__ == "__main__":
@@ -6,3 +7,6 @@ if __name__ == "__main__":
     trained_state, trained_model = train_toy_model(
         num_features=20, hidden_dim=5, sparsity=0.99
     )
+
+    # Visualize the interference matrix using the trained_state from earlier!
+    visualize_interference(trained_state)
